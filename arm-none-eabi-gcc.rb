@@ -3,14 +3,14 @@ require 'formula'
 class ArmNoneEabiGcc < Formula
 
   homepage 'https://launchpad.net/gcc-arm-embedded'
-  version '4.8-2014-q3-major'
+  version '4.9-2015-q2-update'
 
   if OS.mac?
-    url 'https://launchpad.net/gcc-arm-embedded/4.8/4.8-2014-q3-update/+download/gcc-arm-none-eabi-4_8-2014q3-20140805-mac.tar.bz2'
-    sha256 '6b30901738b09a8d22fdfff99e991217444b80ac492a6163af5c06a3baaa3487'
+    url 'https://launchpad.net/gcc-arm-embedded/4.9/4.9-2015-q2-update/+download/gcc-arm-none-eabi-4_9-2015q2-20150609-mac.tar.bz2'
+    sha256 '48841185eefa482f0338059dd779b3edf832521ccd05811d557ef4a2807b8284'
   elsif OS.linux?
-    url 'https://launchpad.net/gcc-arm-embedded/4.8/4.8-2014-q3-update/+download/gcc-arm-none-eabi-4_8-2014q3-20140805-linux.tar.bz2'
-    sha256 'e33d7546de1e02844239c72b3ef5563f472fcd6b4637419d513770ae13f551c0'
+    url 'https://launchpad.net/gcc-arm-embedded/4.9/4.9-2015-q2-update/+download/gcc-arm-none-eabi-4_9-2015q2-20150609-linux.tar.bz2'
+    sha256 '3a574c5becfca496bafe07bbd76e9deae1fd0cc99c5a9de0f8c610750f2f89ac'
   end
 
   def install
