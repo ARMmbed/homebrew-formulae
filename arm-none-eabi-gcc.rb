@@ -9,7 +9,7 @@ class ArmNoneEabiGcc < Formula
   sha256 '7d3080514a2899d05fc55466cdc477e2448b6a62f536ffca3dd846822ff52900'
 
   def install
-    bin.install Dir["bin/*"]
-    share.install Dir["share/*"]
+    (prefix/"gcc").install Dir["./*"]
+    Dir.glob(prefix/"gcc/bin/*") { |file| bin.install_symlink file }
   end
 end
