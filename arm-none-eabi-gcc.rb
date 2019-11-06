@@ -3,10 +3,10 @@ require 'formula'
 class ArmNoneEabiGcc < Formula
 
   homepage 'https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads'
-  version '8-2018-q4-major'
+  version '9-2019-q4-major'
 
-  url 'https://armkeil.blob.core.windows.net/developer/Files/downloads/gnu-rm/8-2018q4/gcc-arm-none-eabi-8-2018-q4-major-mac.tar.bz2'
-  sha256 '0b528ed24db9f0fa39e5efdae9bcfc56bf9e07555cb267c70ff3fee84ec98460'
+  url 'https://developer.arm.com/-/media/Files/downloads/gnu-rm/9-2019q4/RC2.1/gcc-arm-none-eabi-9-2019-q4-major-mac.tar.bz2'
+  sha256 '1249f860d4155d9c3ba8f30c19e7a88c5047923cea17e0d08e633f12408f01f0'
 
   def install
     (prefix/"gcc").install Dir["./*"]
