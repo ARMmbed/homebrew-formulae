@@ -16,7 +16,7 @@ If you still want to install from this tap, use the following instructions:
 
 ```sh
 brew tap ArmMbed/homebrew-formulae
-brew install arm-none-eabi-gcc
+brew install ARMmbed/homebrew-formulae/arm-none-eabi-gcc
 ```
 
 This tap was maintained by the Arm Mbed team, not the Arm OSS compiler team! Please raise [issues with this formula here](https://github.com/ArmMbed/homebrew-formulae/issues), and [issues with the toolchain here](https://bugs.launchpad.net/gcc-arm-embedded).
